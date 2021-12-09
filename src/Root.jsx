@@ -2,7 +2,7 @@ import React from "react";
 import { Link, Route, BrowserRouter as Router, Switch } from "react-router-dom";
 import "./Root.css";
 import Home from "./Home";
-import Test from "./Test";
+import HoofdContainer from "./HoofdContainer";
 
 export default function Root() {
   return (
@@ -24,7 +24,7 @@ export default function Root() {
               <Home />
             </Route>
             <Route path="/test">
-              <Test />
+              <HoofdContainer />
             </Route>
           </Switch>
         </div>
